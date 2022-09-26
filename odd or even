@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	if(a%2==0)
+	{
+		printf("its even number");
+	}
+	else
+	{
+		printf("its odd number");
+	}
+}
+
+SAMPLE OUTPUT:
+3
+its odd number
