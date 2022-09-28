@@ -1,4 +1,4 @@
-[9:17 PM, 9/27/2022] Sarabesh Sse: #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 struct node {
 	int info;
