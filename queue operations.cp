@@ -1,7 +1,9 @@
 #include<stdio.h>
-#define n 5
 int main()
 {
+	int n;
+	printf("Enter the number of elements :");
+    scanf("%d",&n);
     int queue[n],ch=1,front=0,rear=0,i,j=1,x=n;
     printf("Queue using Array");
     printf("\n1.enqueue \n2.Dequeue \n3.Display \n4.Exit");
@@ -52,3 +54,37 @@ int main()
     }
     return 0;
 }
+
+sample output:
+Enter the number of elements :3
+Queue using Array
+1.enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter the Choice:1
+
+ Enter no 1:5
+
+Enter the Choice:1
+
+ Enter no 2:7
+
+Enter the Choice:1
+
+ Enter no 3:6
+
+Enter the Choice:1
+
+ Queue is Full
+Enter the Choice:3
+
+Queue Elements are:
+ 5
+7
+6
+
+Enter the Choice:2
+
+ Deleted Element is 5
+Enter the Choice:4
