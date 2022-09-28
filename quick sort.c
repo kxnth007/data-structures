@@ -6,13 +6,13 @@ void main( )
 	clrscr( );
 	printf("\nHow many elements you want to sort ? ");
 	scanf("%d",&n);
-	printf("\Enter elements for an array:");
+	printf("Enter elements for an array:");
 for(i=0; i<n; i++)
 	scanf("%d",&a[i]);
 	low=0;
 	high=n-1;
 	quicksort(a,low,high);
-	printf("\After Sorting the elements are:");
+	printf("After Sorting the elements are:");
 for(i=0;i<n;i++)
 	printf("%d ",a[i]);
 	getch( );
